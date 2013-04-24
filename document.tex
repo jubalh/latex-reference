@@ -1,0 +1,58 @@
+%
+% Comments
+%
+
+\documentclass[12pt]{article}
+
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title{\LaTeX{} Memo}
+\author{Michael Vetter}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Small \LaTeX{} file to help me remember stuff.
+\end{abstract}
+
+
+\tableofcontents
+
+\section{Introduction}
+
+Currently I am writing a document using Latex, unfortunately I am not able to publish it freely (yet).
+
+I plan to use this document as a reference. So I can look up how to do stuff with Latex for later use.
+
+\section{Examples}
+\label{sec:examples}
+
+\subsection[Sections]{long sections name}
+
+Use \texttt{section}s and \texttt{subsection}s to organize your document. \LaTeX{} handles all the formatting and numbering automatically. Use \texttt{ref} and \texttt{label} for cross-references --- this is Section~\ref{sec:examples}, for example.
+In the table of contents you see just the short section name.
+
+
+% image
+%\begin{figure}
+%\includegraphics[width=\textwidth]{name}
+%\caption{\label{fig:your-figure}Caption}
+%\end{figure}
+
+\subsection{Lists}
+
+Make lists like that \dots
+
+\begin{enumerate}
+\item relax
+\item relax more
+\end{enumerate}
+\dots so you see. it's important to \dots
+\begin{itemize}
+\item relax
+\end{itemize}
+
+\end{document}
